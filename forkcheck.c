@@ -1,7 +1,7 @@
-//C Program to create new process using Linux API system calls fork() and exit()
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <sys/wait.h>
 
 int main() {
     int pid = fork();
@@ -15,3 +15,4 @@ int main() {
         wait(NULL); 
     }
 }
+

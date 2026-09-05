@@ -57,7 +57,7 @@ int main() {
 ##OUTPUT
 
 
-![program-1](img/exp-01.png)
+![program-1](img/img1.png)
 
 
 
